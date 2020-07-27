@@ -6,7 +6,7 @@
 *.iml
 .DS_Store
 
-# Essentials files
+# EssentialsXD files
 /Essentials/userdata
 /Essentials/config.yml
 /Essentials/kits.yml

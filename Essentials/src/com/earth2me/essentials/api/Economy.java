@@ -74,7 +74,7 @@ public class Economy {
             /*
                 Attempt lookup using UUID - this prevents balance resets when accessing economy
                 via Vault during player join.
-                See: https://github.com/EssentialsX/Essentials/issues/2400
+                See: https://github.com/EssentialsXD/Essentials/issues/2400
             */
             Player player = ess.getServer().getPlayerExact(name);
             if (player != null) {
@@ -861,7 +861,7 @@ public class Economy {
     }
 
     /**
-     * Formats the amount of money like all other Essentials functions. Example: $100000 or $12345.67
+     * Formats the amount of money like all other EssentialsXD functions. Example: $100000 or $12345.67
      *
      * @param amount The amount of money
      *
@@ -887,7 +887,7 @@ public class Economy {
     /**
      * Test if a player exists to avoid the UserDoesNotExistException
      *
-     * @deprecated Essentials is moving away from username based economy methods. This may be removed in the future.
+     * @deprecated EssentialsXD is moving away from username based economy methods. This may be removed in the future.
      *
      * @param name Name of the user
      *

@@ -92,7 +92,7 @@ public class SignBlockListener implements Listener {
         for (Signs signs : Signs.values()) {
             final EssentialsSign sign = signs.getSign();
             // If the top sign line contains any of the success name (excluding colors), just remove all colours from the first line.
-            // This is to ensure we are only modifying possible Essentials Sign and not just removing colors from the first line of all signs.
+            // This is to ensure we are only modifying possible EssentialsXD Sign and not just removing colors from the first line of all signs.
             // Top line and sign#getSuccessName() are both lowercased since contains is case-sensitive.
             String successName = sign.getSuccessName(ess);
             if (successName == null) {

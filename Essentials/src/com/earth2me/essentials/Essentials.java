@@ -1,6 +1,6 @@
 /*
- * Essentials - a bukkit plugin
- * Copyright (C) 2011  Essentials Team
+ * EssentialsXD - a bukkit plugin
+ * Copyright (C) 2011  EssentialsXD Team
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

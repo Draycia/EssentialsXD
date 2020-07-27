@@ -13,6 +13,6 @@ database:
 show-on-login: true
 show-on-whois: true
 # "enable-locale" enables locale on geolocation display.
-# Language is determined by Essentials/config.yml "locale" section.
+# Language is determined by EssentialsXD/config.yml "locale" section.
 # Not all languages are supported. See https://dev.maxmind.com/geoip/geoip2/web-services/#Languages
 enable-locale: true

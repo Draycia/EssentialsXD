@@ -401,8 +401,8 @@ public class EssentialsPlayerListener implements Listener {
         ess.scheduleSyncDelayedTask(new DelayJoinTask());
     }
 
-    // Makes the compass item ingame always point to the first essentials home.  #EasterEgg
-    // EssentialsX: This can now optionally require a permission to enable, if set in the config.
+    // Makes the compass item ingame always point to the first EssentialsXD home.  #EasterEgg
+    // EssentialsXD: This can now optionally require a permission to enable, if set in the config.
     private void updateCompass(final User user) {
         if (ess.getSettings().isCompassTowardsHomePerm() && !user.isAuthorized("essentials.home.compass")) return;
 
@@ -911,7 +911,7 @@ public class EssentialsPlayerListener implements Listener {
          * Returns true if all of the following are true:
          * - The command is a plugin command
          * - The plugin command is from a plugin in an essentials-controlled package
-         * - There is no known alternative OR the alternative is overridden by Essentials
+         * - There is no known alternative OR the alternative is overridden by EssentialsXD
          */
         private boolean isEssentialsCommand(String label) {
             PluginCommand command = ess.getServer().getPluginCommand(label);

@@ -30,7 +30,7 @@ public class NumberUtil {
         PRETTY_FORMAT.setMaximumFractionDigits(2);
     }
 
-    // this method should only be called by Essentials
+    // this method should only be called by EssentialsXD
     public static void internalSetPrettyFormat(NumberFormat prettyFormat) {
         PRETTY_FORMAT = prettyFormat;
     }

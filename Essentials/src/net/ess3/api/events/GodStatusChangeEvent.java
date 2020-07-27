@@ -6,7 +6,7 @@ import net.ess3.api.IUser;
 /**
  * Fired when a user's god status is toggled.
  *
- * Note that in older versions (original Essentials and early EssentialsX), the #getAffected
+ * Note that in older versions (original EssentialsXD and early EssentialsXD), the #getAffected
  * and #getController methods are inverted.
  */
 public class GodStatusChangeEvent extends StatusChangeEvent {

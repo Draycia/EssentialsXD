@@ -25,7 +25,7 @@ public class Worth implements IConf {
     /**
      * Get the value of an item stack from the config.
      *
-     * @param ess       The Essentials instance.
+     * @param ess       The EssentialsXD instance.
      * @param itemStack The item stack to look up in the config.
      * @return The price from the config.
      */
@@ -65,7 +65,7 @@ public class Worth implements IConf {
     /**
      * Get the amount of items to be sold from a player's inventory.
      *
-     * @param ess        The Essentials instance.
+     * @param ess        The EssentialsXD instance.
      * @param user       The user attempting to sell the item.
      * @param is         A stack of the item to search the inventory for.
      * @param args       The amount to try to sell.
@@ -132,7 +132,7 @@ public class Worth implements IConf {
     /**
      * Set the price of an item and save it to the config.
      *
-     * @param ess       The Essentials instance.
+     * @param ess       The EssentialsXD instance.
      * @param itemStack A stack of the item to save.
      * @param price     The new price of the item.
      */

@@ -74,7 +74,7 @@ public interface IUser {
 
     /**
      * 'Hidden' Represents when a player is hidden from others. This status includes when the player is hidden via other
-     * supported plugins. Use isVanished() if you want to check if a user is vanished by Essentials.
+     * supported plugins. Use isVanished() if you want to check if a user is vanished by EssentialsXD
      *
      * @return If the user is hidden or not
      *

@@ -951,7 +951,7 @@ public abstract class UserData extends PlayerExtension implements IConf {
         // Serialization explanation:
         //
         // Serialization is done as a map list instead of a config section due to limitations.
-        // When serializing patterns (which commonly include full stops .) Bukkit/Essentials config framework
+        // When serializing patterns (which commonly include full stops .) Bukkit/EssentialsXD config framework
         // interprets it as a path separator, thus it breaks up the regex into sub nodes causing invalid syntax.
         // Thus each command cooldown is instead stored as a Map of {pattern: .., expiry: ..} to work around this.
         List<Object> serialized = new ArrayList<>();

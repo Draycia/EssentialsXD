@@ -235,7 +235,7 @@ public class EssentialsSign {
         if (!sign.getLine(0).matches("§1\\[.*\\]"))
             return false;
 
-        // Validate that the sign is actually an essentials sign
+        // Validate that the sign is actually an EssentialsXD sign
         String signName = ChatColor.stripColor(sign.getLine(0)).replaceAll("[^a-zA-Z]", "");
         for (EssentialsSign essSign : ess.getSettings().enabledSigns()) {
             if (essSign.getName().equalsIgnoreCase(signName))

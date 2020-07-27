@@ -155,7 +155,7 @@ public class EssentialsGeoIPPlayerListener implements Listener, IConf {
             if (config.getBoolean("enable-locale")) {
                 // Get geolocation based on Essentials' locale. If the locale is not avaliable, use "en".
                 String locale = ess.getI18n().getCurrentLocale().toString().replace('_', '-');
-                // This fixes an inconsistency where Essentials uses "zh" but MaxMind expects "zh-CN".
+                // This fixes an inconsistency where EssentialsXD uses "zh" but MaxMind expects "zh-CN".
                 if ("zh".equalsIgnoreCase(locale)) {
                     locale = "zh-CN";
                 }

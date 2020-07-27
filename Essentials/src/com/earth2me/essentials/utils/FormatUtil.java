@@ -18,7 +18,7 @@ public class FormatUtil {
 
     //Vanilla patterns used to strip existing formats
     private static final Pattern STRIP_ALL_PATTERN = Pattern.compile("\u00a7+([0-9a-fk-orA-FK-OR])");
-    //Essentials '&' convention colour codes
+    //EssentialsXD '&' convention colour codes
     private static final Pattern REPLACE_ALL_PATTERN = Pattern.compile("(&)?&([0-9a-fk-orA-FK-OR])");
 
     private static final Pattern REPLACE_ALL_RGB_PATTERN = Pattern.compile("(&)?&#([0-9a-fA-F]{6})");

@@ -300,7 +300,7 @@ public class Commandessentials extends EssentialsCommand {
         sender.sendMessage("Offline Mode UUID: " + offlineuuid.toString());
     }
 
-    // Displays versions of EssentialsX and related plugins.
+    // Displays versions of EssentialsXD and related plugins.
     private void runVersion(final Server server, final CommandSource sender, final String commandLabel, final String[] args) throws Exception {
         if (sender.isPlayer() && !ess.getUser(sender.getPlayer()).isAuthorized("essentials.version")) return;
 

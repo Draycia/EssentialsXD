@@ -1508,7 +1508,7 @@ public class Settings implements net.ess3.api.ISettings {
         DecimalFormat currencyFormat = new DecimalFormat(currencyFormatString, decimalFormatSymbols);
         currencyFormat.setRoundingMode(RoundingMode.FLOOR);
 
-        // Updates NumberUtil#PRETTY_FORMAT field so that all of Essentials can follow a single format.
+        // Updates NumberUtil#PRETTY_FORMAT field so that all of EssentialsXD can follow a single format.
         NumberUtil.internalSetPrettyFormat(currencyFormat);
         return currencyFormat;
     }
@@ -1656,7 +1656,7 @@ public class Settings implements net.ess3.api.ISettings {
         return itemDbType;
     }
 
-    private boolean forceEnableRecipe; // https://github.com/EssentialsX/Essentials/issues/1397
+    private boolean forceEnableRecipe; // https://github.com/EssentialsXD/Essentials/issues/1397
 
     private boolean allowOldIdSigns;
 

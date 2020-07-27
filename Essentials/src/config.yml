@@ -4,21 +4,21 @@
 # +------------------------------------------------------+ #
 ############################################################
 
-# This is the config file for EssentialsX.
+# This is the config file for EssentialsXD.
 # This config was generated for version ${full.version}.
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
-# If you receive an error when Essentials loads, ensure that:
+# If you receive an error when EssentialsXD loads, ensure that:
 #   - No tabs are present: YAML only allows spaces
 #   - Indents are correct: YAML hierarchy is based entirely on indentation
 #   - You have "escaped" all apostrophes in your text: If you want to write "don't", for example, write "don''t" instead (note the doubled apostrophe)
 #   - Text with symbols is enclosed in single or double quotation marks
 
-# If you need help, you can join the EssentialsX community: https://essentialsx.cf/community.html
+# If you need help, you can join the EssentialsXD community: https://EssentialsXD.cf/community.html
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                 Essentials (Global)                  | #
+# |                 EssentialsXD (Global)                  | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -53,7 +53,7 @@ change-displayname: true
 # The value of change-displayname (above) has to be true.
 #change-playerlist: true
 
-# When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
+# When EssentialsChat.jar isn't used, force EssentialsXD to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
 # The value of change-displayname (above) has to be true.
 # Do not edit this setting unless you know what you are doing!
@@ -70,7 +70,7 @@ change-displayname: true
 #add-suffix-in-playerlist: true
 
 # If the teleport destination is unsafe, should players be teleported to the nearest safe location?
-# If this is set to true, Essentials will attempt to teleport players close to the intended destination.
+# If this is set to true, EssentialsXD will attempt to teleport players close to the intended destination.
 # If this is set to false, attempted teleports to unsafe locations will be cancelled with a warning.
 teleport-safety: true
 
@@ -83,7 +83,7 @@ force-disable-teleport-safety: false
 force-safe-teleport-location: false
 
 # If a player has any passengers, the teleport will fail. Should their passengers be dismounted before they are teleported?
-# If this is set to true, Essentials will dismount the player's passengers before teleporting.
+# If this is set to true, EssentialsXD will dismount the player's passengers before teleporting.
 # If this is set to false, attempted teleports will be canceled with a warning.
 teleport-passenger-dismount: true
 
@@ -141,7 +141,7 @@ warn-on-smite: true
 # Shall we drop items instead of adding to inventory if the target inventory is full?
 drop-items-if-full: false
 
-# Essentials Mail Notification
+# EssentialsXD Mail Notification
 # Should we notify players if they have no new mail?
 notify-no-new-mail: true
 
@@ -151,19 +151,19 @@ notify-player-of-mail-cooldown: 60
 
 # The motd and rules are now configured in the files motd.txt and rules.txt.
 
-# When a command conflicts with another plugin, by default, Essentials will try to force the OTHER plugin to take priority.
-# Commands in this list, will tell Essentials to 'not give up' the command to other plugins.
+# When a command conflicts with another plugin, by default, EssentialsXD will try to force the OTHER plugin to take priority.
+# Commands in this list, will tell EssentialsXD to 'not give up' the command to other plugins.
 # In this state, which plugin 'wins' appears to be almost random.
 #
-# If you have two plugin with the same command and you wish to force Essentials to take over, you need an alias.
-# To force essentials to take 'god' alias 'god' to 'egod'.
+# If you have two plugin with the same command and you wish to force EssentialsXD to take over, you need an alias.
+# To force EssentialsXD to take 'god' alias 'god' to 'egod'.
 # See http://wiki.bukkit.org/Commands.yml#aliases for more information.
 
 overridden-commands:
 #  - god
 #  - info
 
-# Disabling commands here will prevent Essentials handling the command, this will not affect command conflicts.
+# Disabling commands here will prevent EssentialsXD handling the command, this will not affect command conflicts.
 # You should not have to disable commands used in other plugins, they will automatically get priority.
 # See http://wiki.bukkit.org/Commands.yml#aliases to map commands to other plugins.
 disabled-commands:
@@ -204,7 +204,7 @@ socialspy-listen-muted-players: true
 # The following settings listen for when a player changes worlds.
 # If you use another plugin to control speed and flight, you should change these to false.
 
-# When a player changes world, should EssentialsX reset their flight?
+# When a player changes world, should EssentialsXD reset their flight?
 # This will disable flight if the player does not have essentials.fly.
 world-change-fly-reset: true
 
@@ -216,7 +216,7 @@ world-change-speed-reset: true
 # Mute Commands
 # These commands will be disabled when a player is muted.
 # Use '*' to disable every command.
-# Essentials already disabled Essentials messaging commands by default.
+# EssentialsXD already disabled EssentialsXD messaging commands by default.
 # It only cares about the root command, not args after that (it sees /f chat the same as /f)
 mute-commands:
   - f
@@ -313,7 +313,7 @@ player-commands:
 
 # Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
-# If you wish to use EssentialsX's built-in permissions using the `player-commands` section above, set this to false.
+# If you wish to use EssentialsXD's built-in permissions using the `player-commands` section above, set this to false.
 # Default is true.
 use-bukkit-permissions: true
 
@@ -327,10 +327,10 @@ skip-used-one-time-kits-from-kit-list: false
 #
 pastebin-createkit: false
 
-# Essentials Sign Control
+# EssentialsXD Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
 # To enable signs, remove # symbol. To disable all signs, comment/remove each sign.
-# Essentials colored sign support will be enabled when any sign types are enabled.
+# EssentialsXD colored sign support will be enabled when any sign types are enabled.
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
@@ -353,7 +353,7 @@ enabledSigns:
   #- time
   #- weather
 
-# How many times per second can Essentials signs be interacted with per player.
+# How many times per second can EssentialsXD signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
 # Lower numbers will reduce the possibility of lag, but may annoy players.
 sign-use-per-second: 4
@@ -363,10 +363,10 @@ sign-use-per-second: 4
 # were placed before 1.13.
 allow-old-id-signs: false
 
-# List of sign names Essentials should not protect. This feature is especially useful when
-# another plugin provides a sign that EssentialsX provides, but Essentials overrides.
+# List of sign names EssentialsXD should not protect. This feature is especially useful when
+# another plugin provides a sign that EssentialsXD provides, but EssentialsXD overrides.
 # For example, if a plugin provides a [kit] sign, and you wish to use theirs instead of
-# Essentials's, then simply add kit below and Essentials will not protect it.
+# Essentials's, then simply add kit below and EssentialsXD will not protect it.
 #
 # See https://github.com/drtshock/Essentials/pull/699 for more information.
 unprotected-sign-names:
@@ -451,7 +451,7 @@ cancel-afk-on-move: true
 # Users with the permission node essentials.sleepingignored will always be ignored.
 sleep-ignores-afk-players: true
 
-# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
+# Set the player's list name when they are AFK. This is none by default which specifies that EssentialsXD
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
 afk-list-name: "none"
@@ -464,13 +464,13 @@ broadcast-afk-message: true
 # You can disable the death messages of Minecraft here.
 death-messages: true
 
-# How should essentials handle players with the essentials.keepinv permission who have items with
+# How should EssentialsXD handle players with the essentials.keepinv permission who have items with
 # curse of vanishing when they die?
 # You can set this to "keep" (to keep the item), "drop" (to drop the item), or "delete" (to delete the item).
 # Defaults to "keep"
 vanishing-items-policy: keep
 
-# How should essentials handle players with the essentials.keepinv permission who have items with
+# How should EssentialsXD handle players with the essentials.keepinv permission who have items with
 # curse of binding when they die?
 # You can set this to "keep" (to keep the item), "drop" (to drop the item), or "delete" (to delete the item).
 # Defaults to "keep"
@@ -499,7 +499,7 @@ hide-join-quit-messages-above: -1
 no-god-in-worlds:
 #  - world_nether
 
-# Set to true to enable per-world permissions for teleporting between worlds with essentials commands.
+# Set to true to enable per-world permissions for teleporting between worlds with EssentialsXD commands.
 # This applies to /world, /back, /tp[a|o][here|all], but not warps.
 # Give someone permission to teleport to a world with essentials.worlds.<worldname>
 # This does not affect the /home command, there is a separate toggle below for this.
@@ -524,7 +524,7 @@ repair-enchanted: true
 # Warning: Mixing and overleveling some enchantments can cause issues with clients, servers and plugins.
 unsafe-enchantments: false
 
-#Do you want Essentials to keep track of previous location for /back in the teleport listener?
+#Do you want EssentialsXD to keep track of previous location for /back in the teleport listener?
 #If you set this to true any plugin that uses teleport will have the previous location registered.
 register-back-in-listener: false
 
@@ -565,19 +565,19 @@ milk-bucket-easter-egg: true
 # Toggles whether or not the fly status message should be sent to players on join
 send-fly-enable-on-join: true
 
-# Set to true to enable per-world permissions for setting time for individual worlds with essentials commands.
+# Set to true to enable per-world permissions for setting time for individual worlds with EssentialsXD commands.
 # This applies to /time, /day, /eday, /night, /enight, /etime.
 # Give someone permission to teleport to a world with essentials.time.world.<worldname>.
 world-time-permissions: false
 
-# Specify cooldown for both Essentials commands and external commands as well.
+# Specify cooldown for both EssentialsXD commands and external commands as well.
 # All commands do not start with a Forward Slash (/). Instead of /msg, write msg
 #
 # Wildcards are supported. E.g.
 # - '*i*': 50
 # adds a 50 second cooldown to all commands that include the letter i
 #
-# EssentialsX supports regex by starting the command with a caret ^
+# EssentialsXD supports regex by starting the command with a caret ^
 # For example, to target commands starting with ban and not banip the following would be used:
 #  '^ban([^ip])( .*)?': 60 # 60 seconds /ban cooldown.
 # Note: If you have a command that starts with ^, then you can escape it using backslash (\). e.g. \^command: 123
@@ -634,7 +634,7 @@ is-water-safe: false
 # You should only change this to false if you use Minecraft China.
 safe-usermap-names: true
 
-# Should Essentials output logs when a command block executes a command?
+# Should EssentialsXD output logs when a command block executes a command?
 # Example: CommandBlock at <x>,<y>,<z> issued server command: /<command>
 log-command-block-commands: true
 
@@ -766,16 +766,16 @@ hide-permissionless-help: true
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                   EssentialsX Chat                   | #
+# |                   EssentialsXD Chat                   | #
 # +------------------------------------------------------+ #
 ############################################################
 
-# You need to install EssentialsX Chat for this section to work.
-# See https://essentialsx.cf/wiki/Module-Breakdown.html for more information.
+# You need to install EssentialsXD Chat for this section to work.
+# See https://EssentialsXD.cf/wiki/Module-Breakdown.html for more information.
 
 chat:
 
-  # If EssentialsX Chat is installed, this will define how far a player's voice travels, in blocks. Set to 0 to make all chat global.
+  # If EssentialsXD Chat is installed, this will define how far a player's voice travels, in blocks. Set to 0 to make all chat global.
   # Note that users with the "essentials.chat.spy" permission will hear everything, regardless of this setting.
   # Users with essentials.chat.shout can override this by prefixing their message with an exclamation mark (!)
   # Users with essentials.chat.question can override this by prefixing their message with a question mark (?)
@@ -798,16 +798,16 @@ chat:
   # Note: Group names are case-sensitive so you must match them up with your permission plugin.
   
   # You can use permissions to control whether players can use formatting codes in their chat messages.
-  # See https://essentialsx.cf/wiki/Color-Permissions.html for more information.
+  # See https://EssentialsXD.cf/wiki/Color-Permissions.html for more information.
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                 EssentialsX Protect                  | #
+# |                 EssentialsXD Protect                  | #
 # +------------------------------------------------------+ #
 ############################################################
 
-# You need to install EssentialsX Protect for this section to work.
-# See https://essentialsx.cf/wiki/Module-Breakdown.html for more information.
+# You need to install EssentialsXD Protect for this section to work.
+# See https://EssentialsXD.cf/wiki/Module-Breakdown.html for more information.
 
 protect:
 
@@ -950,12 +950,12 @@ protect:
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                EssentialsX AntiBuild                 | #
+# |                EssentialsXD AntiBuild                 | #
 # +------------------------------------------------------+ #
 ############################################################
 
-  # You need to install EssentialsX AntiBuild for this section to work.
-  # See https://essentialsx.cf/wiki/Module-Breakdown.html and http://wiki.ess3.net/wiki/AntiBuild for more information.
+  # You need to install EssentialsXD AntiBuild for this section to work.
+  # See https://EssentialsXD.cf/wiki/Module-Breakdown.html and http://wiki.ess3.net/wiki/AntiBuild for more information.
 
     # Should people without the essentials.build permission be allowed to build?
     # Set true to disable building for those people.
@@ -996,12 +996,12 @@ protect:
 
 ############################################################
 # +------------------------------------------------------+ #
-# |            EssentialsX Spawn + New Players           | #
+# |            EssentialsXD Spawn + New Players           | #
 # +------------------------------------------------------+ #
 ############################################################
 
-# You need to install EssentialsX Spawn for this section to work.
-# See https://essentialsx.cf/wiki/Module-Breakdown.html for more information.
+# You need to install EssentialsXD Spawn for this section to work.
+# See https://EssentialsXD.cf/wiki/Module-Breakdown.html for more information.
 
 newbies:
   # Should we announce to the server when someone logs in for the first time?
